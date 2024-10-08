@@ -9,7 +9,8 @@ div {
     align-items: center;
     gap: 0.5rem;
     padding: 0.35rem 0.5rem;
-    background-color: #433352;
+    /* background-color: #433352;  */
+    background-color: #dee6db; 
     color: #c3b3d1;
     border: none;
     font: inherit;
@@ -23,7 +24,9 @@ div {
   button:hover,
   button:active,
   .active {
-    background-color: #9965dd;
+    /* background-color: #9965dd; */
+     background-color: #adbea7;
+     box-shadow: 0 3px 3px -2px rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .14), 0 1px 8px 0 rgba(0, 0, 0, .12) !important;
     color: #150722;
   }
   
@@ -39,5 +42,8 @@ div {
     padding: 0;
     font-size: 0.8rem;
     font-weight: normal;
+  }
+  .mat-dialog-container {
+    border-radius: 0 !important;
   }
   
